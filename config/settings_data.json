@@ -1,0 +1,952 @@
+{
+  "current": {
+    "show_announcement_bar": false,
+    "header_layout": "logo_focus",
+    "image_loading_style": "none",
+    "show_search_icon_mobile": false,
+    "mobile_menu_background_color": "#FFFFFF",
+    "mobile_menu_link_color": "#ff297f",
+    "mobile_menu_link_hover_color": "#606060",
+    "button_primary_bg_color--highlight": "#ff297f",
+    "button_cart_bg_color": "#ff297f",
+    "button_cart_bg_color--highlight": "#ff297f",
+    "use_placeholders": true,
+    "display_heading_divider": false,
+    "mega_menu_2": true,
+    "mega_menu_3": true,
+    "mega_menu_4": true,
+    "mega_menu_5": true,
+    "mega_menu_6": true,
+    "mega_menu_7": true,
+    "link_color": "#000000",
+    "link_hover_color": "#000000",
+    "banner_heading_color": "#FFF",
+    "header_background": "#000000",
+    "footer_background": "#000000",
+    "footer_link_hover_color": "#ffffff",
+    "sale_color": "#ff297f",
+    "banner_sale": "#ff297f",
+    "regular__font": "roboto_n4",
+    "logo__font": "roboto_n4",
+    "nav__font": "roboto_n4",
+    "nav_font_size": 16,
+    "dropdown_font_size": 14,
+    "button__font": "roboto_n4",
+    "heading__font": "roboto_n5",
+    "heading_size": 20,
+    "preheading_font": "roboto_n5",
+    "subheading_font": "roboto_n5",
+    "banner_heading__font": "roboto_n5",
+    "banner_heading_size": 25,
+    "banner_text__font": "roboto_n5",
+    "footer_font_size": 20,
+    "search_placeholder": "SEARCH",
+    "show_secondary_image": true,
+    "thumbnail_hover_enabled": false,
+    "thumbnail_text_alignment": "left",
+    "stickers_enabled": false,
+    "collection_swatches": false,
+    "collection_swatches_shape": "circle",
+    "color_swatches": "Zebra:zebra.jpg",
+    "enable_swatches": false,
+    "swatch_style": "rounded",
+    "size_chart": "size-chart",
+    "enable_quickshop": true,
+    "quickshop_button_style": "button--secondary",
+    "cart_action": "drawer",
+    "cart_icon": "cart",
+    "display_special_instructions": true,
+    "display_savings": true,
+    "display_ajax_quantity_box": true,
+    "enable_shipping_calculator": false,
+    "currency_format": "money_format",
+    "show_multiple_currencies": false,
+    "twitter_link": "",
+    "facebook_link": "",
+    "youtube_link": "",
+    "tiktok_link": "",
+    "instagram_link": "",
+    "email_link": "outreach@shopswankaposh.com",
+    "favicon": "shopify:\/\/shop_images\/favicon.jpg",
+    "checkout_accent_color": "#FF297F",
+    "checkout_button_color": "#FF297F",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "mobile_only": false,
+          "desktop_only": false,
+          "icon_label": "",
+          "text": "<p>🚨 UP TO 60% OFF ALL SALE 😱 <\/p>",
+          "alignment": "center",
+          "size": "large",
+          "button_label": "USE CODE: SOS15",
+          "link": "shopify:\/\/collections\/sale",
+          "button_style": "button--primary",
+          "background": "#0c4ffc",
+          "text_color": "#ffe920",
+          "width": "wide",
+          "homepage_only": false,
+          "enable_sticky": false,
+          "show_close_icon": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header__top-bar": {
+        "type": "header__top-bar",
+        "blocks": {
+          "header__top-bar-0": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "123 Main Street, Pleasantville USA"
+            }
+          },
+          "header__top-bar-1": {
+            "type": "social_media",
+            "disabled": true,
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "header__top-bar-0",
+          "header__top-bar-1"
+        ],
+        "settings": {
+          "show_top_bar": false,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "background": "rgba(0,0,0,0)",
+          "link_color": "rgba(0,0,0,0)",
+          "link_hover_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-classic": {
+        "type": "header-classic",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Swank_LOGO_diamonds_v2_on_transparent_1_1.png",
+          "logo_width": 200,
+          "main_linklist": "main-menu",
+          "menu_alignment": "center",
+          "dropdown_click": false,
+          "display_search": true,
+          "icon_style": "icons",
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 80,
+          "width": "standard",
+          "vertical_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "4621c374-1f6b-4c7f-b2cf-071b3aba7cb7": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "whats-new",
+              "menu_1_link": "",
+              "menu_2": "featured",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "2f2018f0-dd17-4a05-b6a6-706bb23b623c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cellulitedleter.jpg",
+              "image_link": "shopify:\/\/collections\/cellulite-deleter",
+              "image_caption": ""
+            }
+          },
+          "47e8b524-60e0-4e27-a9a2-33216497f73f": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/featuredbanner_c6e3e4ef-ee95-4147-858e-9033cdd4b1af.jpg",
+              "image_link": "",
+              "image_caption": ""
+            }
+          },
+          "ac8d6b58-b7ee-4608-b35c-ea43a637ebbf": {
+            "type": "empty_column",
+            "disabled": true,
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "4621c374-1f6b-4c7f-b2cf-071b3aba7cb7",
+          "2f2018f0-dd17-4a05-b6a6-706bb23b623c",
+          "47e8b524-60e0-4e27-a9a2-33216497f73f",
+          "ac8d6b58-b7ee-4608-b35c-ea43a637ebbf"
+        ],
+        "settings": {
+          "parent_link": "New",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#000000",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "large",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer__icon-bar": {
+        "type": "footer__icon-bar",
+        "blocks": {
+          "footer__icon-bar-0": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "icon": "leaf",
+              "text": "100% Organic",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "icon": "bunny",
+              "text": "Cruelty free",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-2": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "icon": "chat",
+              "text": "24\/7 support",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-3": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "icon": "truck",
+              "text": "Free shipping",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-1",
+          "footer__icon-bar-2",
+          "footer__icon-bar-3"
+        ],
+        "settings": {
+          "show_icon_bar": false,
+          "alignment": "center",
+          "icon_position": "row",
+          "size": "medium",
+          "background": "#8b8b8b",
+          "link_color": "#ffffff",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-classic": {
+        "type": "footer-classic",
+        "blocks": {
+          "footer-classic-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "get-help",
+              "social_icons_footer": false
+            }
+          },
+          "64679d64-0bf5-4e9d-bc91-961f42f005e4": {
+            "type": "link_list",
+            "settings": {
+              "menu": "company",
+              "social_icons_footer": false
+            }
+          },
+          "b81daf1c-b72c-4080-8cac-634660feac69": {
+            "type": "link_list",
+            "settings": {
+              "menu": "quick-links",
+              "social_icons_footer": false
+            }
+          },
+          "e5f0e93a-eb1f-4955-91a6-8279540012d0": {
+            "type": "download",
+            "settings": {
+              "title": "DOWNLOAD THE SWANK APP",
+              "app_store_url": "https:\/\/bit.ly\/3EdmTJz",
+              "app_store": "shopify:\/\/shop_images\/Apple.png",
+              "google_play_url": "https:\/\/bit.ly\/3EdmTJz",
+              "google_play": "shopify:\/\/shop_images\/Android.png"
+            }
+          },
+          "b143c642-071d-4e6a-8808-32b3082d8a67": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_title": "GIRL, GET LOCKED IN!",
+              "newsletter_richtext": "<p>Exclusive Discounts, Rewards, Early Access To Drops + More!<\/p>",
+              "display_first_name": false,
+              "display_last_name": false,
+              "social_icons_footer": true
+            }
+          }
+        },
+        "block_order": [
+          "footer-classic-1",
+          "64679d64-0bf5-4e9d-bc91-961f42f005e4",
+          "b81daf1c-b72c-4080-8cac-634660feac69",
+          "e5f0e93a-eb1f-4955-91a6-8279540012d0",
+          "b143c642-071d-4e6a-8808-32b3082d8a67"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": false,
+          "display_shopify": false,
+          "display_payment_methods": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "css_class": "",
+          "custom_css": "",
+          "privacy_url": "https:\/\/shopswankaposh.com\/policies\/privacy-policy",
+          "terms_url": "",
+          "sitemap_url": ""
+        }
+      },
+      "header-search-focus": {
+        "type": "header-search-focus",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Swank_LOGO_diamonds_v2_on_transparent_1_1.png",
+          "logo_width": 200,
+          "search_background": "#363636",
+          "search_icon": "#ffffff",
+          "icon_style": "icons",
+          "main_linklist": "main-menu",
+          "menu_alignment": "center",
+          "dropdown_click": false,
+          "enable_sticky": false,
+          "sticky_background_opacity": 100,
+          "scroll_logo_width": 200,
+          "width": "wide",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-centered__top-bar": {
+        "type": "header-centered__top-bar",
+        "settings": {
+          "show_social_icons": true,
+          "text": "<p>Add a phone number or other information.<\/p>",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "top_bar_background": "rgba(0,0,0,0)",
+          "top_bar_link": "rgba(0,0,0,0)",
+          "top_bar_link_hover": "rgba(0,0,0,0)",
+          "top_bar_text": "rgba(0,0,0,0)",
+          "display_search": true,
+          "icon_style": "icons",
+          "cart_button_background": "#000000",
+          "cart_button_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-centered": {
+        "type": "header-centered",
+        "settings": {
+          "logo_width": 200,
+          "logo_position": "between",
+          "main_linklist": "main-menu",
+          "menu_spacing": "default",
+          "dropdown_click": false,
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "display_search": true,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 200,
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-vertical": {
+        "type": "header-vertical",
+        "blocks": {
+          "header-vertical-0": {
+            "type": "logo",
+            "settings": {
+              "logo_width": 80
+            }
+          },
+          "header-vertical-1": {
+            "type": "icons",
+            "settings": {
+              "icon_style": "icons",
+              "display_search": false
+            }
+          },
+          "header-vertical-2": {
+            "type": "search",
+            "settings": {}
+          },
+          "header-vertical-3": {
+            "type": "navigation",
+            "settings": {
+              "main_linklist": "main-menu",
+              "nav_background": "rgba(0,0,0,0)",
+              "nav_link_color": "rgba(0,0,0,0)",
+              "nav_link_hover_color": "rgba(0,0,0,0)"
+            }
+          },
+          "header-vertical-4": {
+            "type": "payment_icons",
+            "settings": {}
+          },
+          "header-vertical-5": {
+            "type": "copyright",
+            "settings": {
+              "copyright_text": "",
+              "display_designed_by": true,
+              "display_shopify": true
+            }
+          }
+        },
+        "block_order": [
+          "header-vertical-0",
+          "header-vertical-1",
+          "header-vertical-2",
+          "header-vertical-3",
+          "header-vertical-4",
+          "header-vertical-5"
+        ],
+        "settings": {
+          "alignment": "left",
+          "dropdown_click": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-logo-focus": {
+        "type": "header-logo-focus",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Swank_LOGO_diamonds_v2_on_transparent_1_1.png",
+          "logo_width": 300,
+          "search_background": "rgba(0,0,0,0)",
+          "search_icon": "#ffffff",
+          "icon_style": "icons",
+          "main_linklist": "swd-menu",
+          "menu_alignment": "center",
+          "dropdown_click": false,
+          "enable_sticky": true,
+          "sticky_background_opacity": 100,
+          "scroll_logo_width": 105,
+          "width": "standard",
+          "css_class": "",
+          "custom_css": "",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "stories-mobile": {
+        "type": "stories-mobile",
+        "blocks": {
+          "fbfd3908-1eec-4b5a-9c94-283e9317c1be": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobilecircle_589194ad-1538-40b7-9d71-43809fe5a84e.jpg",
+              "title": "Trending Now 🔥",
+              "storieslink": "shopify:\/\/collections\/hot-1"
+            }
+          },
+          "3678a887-554a-4bae-859e-2b1923626a29": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabssale.jpg",
+              "title": "Sale",
+              "storieslink": "shopify:\/\/collections\/sale"
+            }
+          },
+          "408e9f80-9482-4db2-a4c0-5217be6c276f": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/endjanuarysitemobilecircle.jpg",
+              "title": "New Arrivals",
+              "storieslink": "shopify:\/\/collections\/whats-swank"
+            }
+          },
+          "e61a339c-a17a-414f-a5d5-2d61103e35bc": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsArtboard_7.jpg",
+              "title": "Shapewear",
+              "storieslink": "shopify:\/\/collections\/shape-wear"
+            }
+          },
+          "cba2666f-f9bf-492a-acc3-8b9579909550": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsrestock.jpg",
+              "title": "RESTOCKED",
+              "storieslink": "shopify:\/\/collections\/restocked"
+            }
+          },
+          "7e733b0b-fa14-48a2-944b-e46792eb3b90": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsbestseller.jpg",
+              "title": "Best Sellers",
+              "storieslink": "shopify:\/\/collections\/best-sellers"
+            }
+          },
+          "1fc643e4-1ee6-4fd6-845b-5567a1a90524": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsplus.jpg",
+              "title": "Plus Size",
+              "storieslink": "shopify:\/\/collections\/swank"
+            }
+          },
+          "71aca852-a12d-4267-ab59-55650a4ee9a1": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabssuperga.jpg",
+              "title": "Superga Jeans",
+              "storieslink": "shopify:\/\/collections\/super-swank-high-rise-pants-super-stretchy-pants"
+            }
+          },
+          "5a4a9ead-fbdb-4f40-9362-f2e371c8c794": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsdenim.jpg",
+              "title": "Jeans",
+              "storieslink": "shopify:\/\/collections\/jeans"
+            }
+          },
+          "aa0ed18f-116c-435f-b7e3-97973ceedf16": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabstops.jpg",
+              "title": "Tops",
+              "storieslink": ""
+            }
+          },
+          "9e8c3ec4-0e29-4b58-b0f3-1519a3495b26": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabssets.jpg",
+              "title": "Matching Sets",
+              "storieslink": "shopify:\/\/collections\/sets"
+            }
+          },
+          "175a4d64-9379-41b0-9e03-fb2a4f14072b": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsaccessories.jpg",
+              "title": "Accessories",
+              "storieslink": "shopify:\/\/collections\/accessories"
+            }
+          },
+          "8cc8a28a-3071-4ada-9062-0510d4c79486": {
+            "type": "heading",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobiletabsdress.jpg",
+              "title": "Dresses",
+              "storieslink": "shopify:\/\/collections\/dresses"
+            }
+          }
+        },
+        "block_order": [
+          "fbfd3908-1eec-4b5a-9c94-283e9317c1be",
+          "3678a887-554a-4bae-859e-2b1923626a29",
+          "408e9f80-9482-4db2-a4c0-5217be6c276f",
+          "e61a339c-a17a-414f-a5d5-2d61103e35bc",
+          "cba2666f-f9bf-492a-acc3-8b9579909550",
+          "7e733b0b-fa14-48a2-944b-e46792eb3b90",
+          "1fc643e4-1ee6-4fd6-845b-5567a1a90524",
+          "71aca852-a12d-4267-ab59-55650a4ee9a1",
+          "5a4a9ead-fbdb-4f40-9362-f2e371c8c794",
+          "aa0ed18f-116c-435f-b7e3-97973ceedf16",
+          "9e8c3ec4-0e29-4b58-b0f3-1519a3495b26",
+          "175a4d64-9379-41b0-9e03-fb2a4f14072b",
+          "8cc8a28a-3071-4ada-9062-0510d4c79486"
+        ],
+        "settings": {
+          "brand_color": ""
+        }
+      },
+      "announcement-bar-2": {
+        "type": "announcement-bar-2",
+        "settings": {
+          "mobile_only": true,
+          "desktop_only": false,
+          "icon_label": "",
+          "text": "<p>FREE SHIPPING WHEN YOU SPEND $50<\/p>",
+          "alignment": "center",
+          "size": "regular",
+          "button_label": "",
+          "link": "",
+          "button_style": "button--primary",
+          "background": "#0c4ffc",
+          "text_color": "#ffe920",
+          "width": "wide",
+          "homepage_only": false,
+          "enable_sticky": false,
+          "show_close_icon": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "mega-menu-2-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "jeans",
+              "menu_1_link": "",
+              "menu_2": "shop-by-style",
+              "menu_2_link": "",
+              "menu_3": "shop-by-size",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "ba4c1c56-438b-4a42-a1a8-c4a3acb77795": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "shop-by-trend",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "40a7b613-958d-447c-88d8-4dce316f6c79": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mainbanner_2.jpg",
+              "image_link": "shopify:\/\/collections\/super-swank-high-rise-pants-super-stretchy-pants",
+              "image_caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-2-2",
+          "ba4c1c56-438b-4a42-a1a8-c4a3acb77795",
+          "40a7b613-958d-447c-88d8-4dce316f6c79"
+        ],
+        "settings": {
+          "parent_link": "Jeans",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#000000",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "mega-menu-3-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "clothes-1",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "5cf3a0a8-882e-4448-80b7-6aa33e0d1243": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/editorpicks.jpg",
+              "image_link": "shopify:\/\/collections\/editor-picks",
+              "image_caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-3-2",
+          "5cf3a0a8-882e-4448-80b7-6aa33e0d1243"
+        ],
+        "settings": {
+          "parent_link": "Clothes",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#000000",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "mega-menu-4-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "accessories-1",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "baa4ae07-8491-4f24-98f5-fb9ae681afd3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cbag.jpg",
+              "image_link": "shopify:\/\/collections\/the-camera-bag",
+              "image_caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-4-2",
+          "baa4ae07-8491-4f24-98f5-fb9ae681afd3"
+        ],
+        "settings": {
+          "parent_link": "Accessories",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-5": {
+        "type": "mega-menu-5",
+        "blocks": {
+          "mega-menu-5-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "sale",
+              "menu_1_link": "",
+              "menu_2": "featured-1",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "cf584e85-4967-4594-8a43-9cc2f62025e5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sale_mobilebanner.png",
+              "image_link": "shopify:\/\/collections\/sale",
+              "image_caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-5-2",
+          "cf584e85-4967-4594-8a43-9cc2f62025e5"
+        ],
+        "settings": {
+          "parent_link": "Sale",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-6": {
+        "type": "mega-menu-6",
+        "blocks": {
+          "0905b96f-8a8e-4852-a5a1-dde8e8a3739e": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "swank-girls-only",
+              "menu_1_link": ""
+            }
+          },
+          "fd1f0ee1-a5cf-4b0d-b155-f21fd6bb2b22": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Artboard_1_59acbf81-d0d2-49d6-8b53-25465ecead26.jpg",
+              "image_link": "https:\/\/shopswankaposh.com\/pages\/swank-ambassador",
+              "image_caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "0905b96f-8a8e-4852-a5a1-dde8e8a3739e",
+          "fd1f0ee1-a5cf-4b0d-b155-f21fd6bb2b22"
+        ],
+        "settings": {
+          "parent_link": "Swank Girls Only",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#000000",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ".mobile-menu-link{\ntext:bolder;}"
+        }
+      },
+      "mega-menu-7": {
+        "type": "mega-menu-7",
+        "blocks": {
+          "b04dfe8e-a647-4fbb-b081-09cc59ce19b5": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "shoes",
+              "menu_1_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b04dfe8e-a647-4fbb-b081-09cc59ce19b5"
+        ],
+        "settings": {
+          "parent_link": "Shoes",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#000000",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#ff297f",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
+      },
+      "16662536352595574465": {
+        "type": "shopify:\/\/apps\/product-filters-fast-search\/blocks\/autocomplete\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
+        "disabled": true,
+        "settings": {
+          "path": "\/pages\/search-results",
+          "new_jquery": true
+        }
+      }
+    }
+  }
+}

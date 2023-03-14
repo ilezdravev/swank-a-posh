@@ -1,0 +1,153 @@
+<script>
+
+var swymWishlistModalContainer = `<div class="swym-modal swym-add-wishlist-modal" tabindex="0">
+                                   <div class="swym-modal-bg"></div>
+                                   <div class="swym-modal-content">
+                                      <div class="swym-add-wishlist-selector">
+                                         <button class="swym-close-btn swym-icon swym-is-button swym-nav swym-nav-1" aria-label="Close Modal"></button>
+                                         <div class="swym-product-title">
+                                            <div class="swym-product-image"><img src="//cdn.shopify.com/s/files/1/1392/1783/products/IMG_9966.jpg?v=1643115229" alt=""></div>
+                                            <h3 class="swym-product-name swym-heading swym-heading-1">Time Out Stretch Skinny Jeans - Dark Grey - 0</h3>
+                                         </div>
+                                         <div class="swym-wishlist-items">
+                                            <div class="swym-wishlist-items-title swym-title swym-title-1">Add To List</div>
+                                            <button class="swym-wishlist-item swym-value swym-is-button swym-color-2 swym-hover-color-1 swym-selected swym-highlight-1" role="checkbox" aria-checked="true" aria-label="My Wishlist"><span class="swym-wishlist-image"><img src="https://cdn.shopify.com/s/files/1/1392/1783/products/IMG_9790_f2c188c2-5b8a-4d38-8917-05c4721f5e29_620x620.jpg?v=1664311059" alt="My Wishlist"></span>                <span class="swym-wishlist-text"><span class="swym-wishlist-name">My Wishlist</span><span class="swym-wishlist-count"> (14)</span></span><span class="swym-icon swym-color-2"></span></button>
+                                         </div>
+                                         <div class="swym-action-btns"><button class="swym-new-wishlist-btn swym-button swym-button-2 swym-color-2 swym-border-color-1">Create New List</button><button disabled="" class="swym-add-to-list-btn swym-button swym-button-1 swym-bg-2 swym-color-4 swym-disabled">Add To List</button></div>
+                                      </div>
+                                   </div>
+                                </div>`;
+  
+  /*
+var __toastMarkup = `
+<div class="swym-notification-wishlist swym-clickable swym-notifications-container" style="cursor: pointer;left:0; top: 60px;" id="swym-toast">
+<div class="swym-product-tile" style="    background: #fff;
+    color: #000;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;">
+<button class="swym-close-btn swym-is-button" id="close-swym-toast"
+style="
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    cursor: pointer;
+    width: auto;
+    z-index: auto;
+    display: inline-block;
+    background: 0;
+    border: 0;
+    bottom: auto;
+    box-shadow: none;
+    clear: none;
+    font-family: inherit;
+    font-size: medium;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: auto;
+    left: auto;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+    max-height: none;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    opacity: 1;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+    text-transform: none;
+    transform: none;
+    visibility: visible;
+"
+>
+<span class="swym-icon">
+</span></button>
+<img class="swym-image" style="
+        width: 50px;
+    flex-shrink: 0;"
+ src="{{iu}}"
+ alt=""><div class="swym-details-container"  id="openWl" style="display: flex;
+    flex-direction: column;">
+ <div class="swym-details" role="alert" style="
+    padding: 15px 25px 10px 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .1em;
+    color: #434655;
+    word-break: break-word;
+">
+ <span class="swym-emphasis" style="font-weight: bold;">{{dt}}</span> has been added to 
+ <span class="swym-emphasis" style="font-weight: bold;">1 list</span> successfully.</div></div></div></div>`;
+
+  */
+  
+function swymCallbackFn(swat) {
+  //   Toast Options - Set Autohide to true, to hide after delay.
+  let options = {
+    autohide: true,
+    delay: 3000,
+    animation: true
+  };
+
+  function showCustomNotification(event) {
+    console.log(event)
+    var parentContainer = document.querySelector("#swym-component-container"); //#swym-custom-notify-container");
+    var popUpContainer = parentContainer.querySelector(".swym-wishlist-modal-container .swym-modals-container"); 
+    parentContainer.innerHTML = swymWishlistModalContainer;
+
+    /*
+    var product = event.detail.d;
+    if (parentContainer && bootstrap.Toast) {
+      parentContainer.innerHTML = ""; // Reset old toasts;
+      product = SwymUtils.formatProductPrice(product);
+      product.variantInfo = getVariantInfo(product.variants);
+      let toastDetails = SwymUtils.renderTemplateString(__toastMarkup, product);
+      parentContainer.innerHTML = toastDetails;
+      let toastElement = document.querySelector("#swym-toast");
+      let toast = new bootstrap.Toast(toastElement, options);
+      document.getElementById('close-swym-toast').onclick = function() {
+          toast.hide();
+        document.querySelector("#swym-custom-notify-container").innerHTML='';
+      }
+      toast.show();
+      bindEvent();
+	  setTimeout(function() {
+          toast.hide();
+        document.querySelector("#swym-custom-notify-container").innerHTML='';
+      },3000)
+      function bindEvent() {
+        document.getElementById('openWl').onclick = function() {
+          swat.ui.open();
+        }
+      }
+    }
+
+    function getVariantInfo(variants) {
+      try {
+        let variantKeys = ((variants && variants != "[]") ? Object.keys(variants[0]) : []),
+            variantinfo;
+        if (variantKeys.length) {
+          variantinfo = variantKeys[0];
+        }
+        return (variantinfo == "Default Title") ? "" : variantinfo;
+      } catch (err) {
+        return variants;
+      }
+    }
+    */
+  }
+  swat.evtLayer.addEventListener(swat.JSEvents.addedToWishlist, function(event) {
+    //Show custom Notifications on event;	
+    showCustomNotification(event);
+  });
+}
+if (!window.SwymCallbacks) {
+  window.SwymCallbacks = [];
+}
+window.SwymCallbacks.push(swymCallbackFn);
+</script>

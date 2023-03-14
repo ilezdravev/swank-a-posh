@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections__main",
+      "settings": {
+        "collections_per_row": 3,
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "align_height": true,
+        "collection_height": 400,
+        "enable_zoom": true,
+        "button_style": "button--secondary",
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#FFFFFF",
+        "collection_title_below_image": false,
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

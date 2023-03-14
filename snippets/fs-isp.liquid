@@ -1,0 +1,51 @@
+<script>
+    
+        function hooks() {
+          window.SerpOptions.registerHook("serp-product-grid", ({products, element}) => {
+            let swatchClassPrefix = '.fast-swatch-color-';
+            element.querySelectorAll(".product-card[data-product-id]").forEach(ele => {
+              let productID = ele.getAttribute('data-product-id');
+              let productData = products[productID];                            
+              let title = productData.title;
+              let res = title.split(" - ");
+              
+              if(productData?.alternativeProducts) {
+                 for(let altProduct of productData.alternativeProducts) {
+                     let color = res[0] + "-" + altProduct.color.toLowerCase().replaceAll(' ','-');
+                 
+                     let imageURL = "https://media-cdn.starapps.studio/apps/vsk/swank-a-posh/groups/115182/"+color+'.media';
+                     let swatchElement = ele.querySelector('.fast-swatch-color-'+color);
+                     if(swatchElement) {
+                        swatchElement.style.backgroundImage = "url("+imageURL+")";
+                         swatchElement.style.backgroundColor = 'unset';
+                     }
+                 } 
+              } 
+              else if(productData?.variants) {
+                 for(let variantKey in productData.variants) {
+                     let attributes = productData.variants[variantKey]?.attributes;
+                     if(attributes && 'Color' in attributes) {
+                         let color = attributes.Color;
+                        let imageURL = "https://cdn.shopify.com/s/files/1/0259/2224/0611/t/20/assets/"+color+'.png';
+                         let swatchElement = ele.querySelector('.fast-swatch-color-'+color);
+                         if(swatchElement) {
+                            swatchElement.style.backgroundImage = "url("+imageURL+")";
+                             swatchElement.style.backgroundColor = 'unset';
+                         }
+                     }
+                 }
+              }
+              
+            });
+          });
+        }
+    
+        if (window.SerpOptions) {
+            hooks();
+        } else {
+            window.addEventListener('fast-serp-ready', function () {
+                hooks();
+            });
+        }  
+          
+    </script>

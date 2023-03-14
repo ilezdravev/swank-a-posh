@@ -1,0 +1,210 @@
+<div class="product-thumbnail">
+{%- comment -%}
+  {% if settings.display_vendor %}
+    <span class="product-thumbnail__vendor">{{ product.vendor }}</span>
+  {% endif %}
+
+  {% if hover_enabled %}
+    <span class="product-thumbnail__title">{{ product.title }}</span>
+  {% else %}
+    <a href="{{ product.url | within: collection }}" class="product-thumbnail__title">{{ product.title }}</a>
+  {% endif %}
+
+  {% if collection_handles contains 'coming-soon' %}
+    {% if settings.stickers_enabled == false %}
+      {{ 'collections.general.coming_soon' | t }}
+    {% endif %}
+  {% else %}
+    <span class="product-thumbnail__price price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
+      {% if product.price_varies and product.price_min > 0 %}
+        <small><em>{{ 'products.general.from' | t }}</em></small>
+      {% endif %}
+      {% if product.price_min > 0 %}
+        <span class="money">
+          {%
+            render 'price-element',
+            price: product.price_min
+          %}
+        </span>
+      {% else %}
+        {{ settings.free_price_text }}
+      {% endif %}
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      {% if variant.price < variant.compare_at_price %}
+        <span class="product-thumbnail__was-price compare-at-price">
+          <span class="money">
+            {%
+              render 'price-element',
+              price: variant.compare_at_price
+            %}
+          </span>
+    </span>
+  {% endif %}
+    </span>
+    {% if settings.select_first_available_variant %}
+      {%- assign variant_for_unit_price = product.variants | sort: 'price' | first -%}
+      {%
+        render 'unit-price',
+        item: variant_for_unit_price,
+        class: 'product-thumbnail__unit-price'
+      %}
+    {% endif %}
+  {% endif %}
+{%- endcomment -%}
+
+
+  <!-- Add to cart button code -->
+  {% form 'product', product %}
+  {%- assign product_url = all_products[product.handle].url -%}
+  {%- assign enable_swatches = true -%}
+
+{%    assign selected_variant = product.selected_or_first_available_variant
+  %}  
+  <variant-selection
+  {% if variant_selection_id != blank %}id="{{ variant_selection_id }}"{% endif %}
+  class="variant-selection"
+  product-url="{{ product_url }}.js"
+  variant="{% if selected_variant %}{{ selected_variant.id }}{% else %}not-selected{% endif %}"
+  data-variant-selection
+>
+  {% if product.has_only_default_variant %}
+    <input
+      class="variant-selection__variants variant-selection__variants--default"
+      name="id"
+      type="hidden"
+      value="{{ product.variants.first.id }}"
+      data-variants
+    >
+  {% else %}
+    <noscript>
+      <style>
+        .variant-selection__variants {
+          display: block !important;
+        }
+      </style>
+    </noscript>
+    <select
+      class="variant-selection__variants"
+      name="id"
+      style="display: none"
+      data-variants
+    >
+      <option
+        value="not-selected"
+        disabled
+        {% if selected_variant == blank %}selected{% endif %}
+      >
+        {{ 'product.variants.choose_variant' | t }}
+      </option>
+      {% for variant in product.variants %}
+        <option
+          {% if selected_variant and selected_variant.id == variant.id %}selected{% endif %}
+          value="{{ variant.id }}"
+          {% unless variant.available %}disabled{% endunless %}
+        >
+          {{ variant.title }} - {{ variant.price | money }}
+        </option>
+      {% endfor %}
+    </select>
+
+    {% comment %}Inject @pixelunion/shopify-variants-ui/options-selection begin{% endcomment %}
+    {% comment %}
+      Display variant options for a product
+    
+      @param product
+      @param selected_variant
+      @param variant_selection_id
+      @param sold_out_options
+      @param style
+    
+      @param enable_swatches
+      @param swatches_shape
+      @param swatches_option_trigger
+      @param swatches_option_style
+      @param swatches_product_page_size
+      @param swatches_custom_colors
+    {% endcomment %}
+    
+    <options-selection
+      {% if variant_selection_id != blank %}variant-selection="{{ variant_selection_id }}"{% endif %}
+      style="display: none;"
+      {% if sold_out_options == 'disabled' %}disable-unavailable{% endif %}
+      {% if sold_out_options == 'hidden' %}remove-unavailable{% endif %}
+      data-options-selection
+    >
+      <script>
+        (function() {
+          const scriptTag = document.scripts[document.scripts.length - 1];
+          const parentTag = scriptTag.parentNode;
+    
+          parentTag.style.display = '';
+        })()
+      </script>
+    
+      {% for option in product.options_with_values %}
+        {% assign option_index = forloop.index0 %}
+        {% assign show_swatches = true %}
+        {% if enable_swatches %}
+          {%- assign swatches_option_trigger = swatches_option_trigger | strip | downcase -%}
+          {%- assign option_name = option.name | strip | downcase -%}
+    
+          {% if option_name == swatches_option_trigger %}
+            {% assign show_swatches = true %}
+            {% assign swatch_option_key = 'option' | append: forloop.index %}
+          {% endif %}
+        {% endif %}
+    
+
+          {%
+            render 'options-radios_custom',
+            product: product,
+            selected_variant: selected_variant,
+            option: option,
+            option_index: option_index,
+            show_swatches: show_swatches,
+            swatch_option_key: swatch_option_key,
+            swatch_size: swatches_product_page_size,
+            swatches_option_style: swatches_option_style
+          %}
+      {% endfor %}
+    </options-selection>
+    {% comment %}Inject @pixelunion/shopify-variants-ui/options-selection end{% endcomment %}
+
+  {% endif %}
+</variant-selection>
+
+<div class="purchase-details__buttons purchase-details__spb--{{ show_payment_button }}">
+  {% if settings.cart_action == 'reload_page' %}
+    <input type="hidden" name="return_to" value="back" />
+  {% elsif settings.cart_action == 'redirect_cart' %}
+    <input type="hidden" name="return_to" value="{{ routes.cart_url }}" />
+  {% endif %}
+
+  {% capture add_to_cart_label %}{% if collection_handles contains 'pre-order' %}{{ 'collections.general.pre_order' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}{% endcapture %}
+  <button type="submit" name="add" class="button {% if settings.cart_action == 'mini_cart' or settings.cart_action == 'drawer' %} ajax-submit {% endif %}action_button button--add-to-cart {% if show_payment_button %} action_button--secondary {% endif %}" data-label={{ add_to_cart_label | json }} data-add-to-cart-trigger>
+    {% if  settings.button_cart_icon != blank and settings.button_cart_icon_position == 'left' %}
+      {%
+        render 'icon',
+        name: settings.button_cart_icon,
+        icon_class: 'icon--cart'
+      %}
+    {% endif %}
+    <span class="text">{{ add_to_cart_label }}</span>
+    {% if  settings.button_cart_icon != blank and settings.button_cart_icon_position == 'right' %}
+      {%
+        render 'icon',
+        name: settings.button_cart_icon,
+        icon_class: 'icon--cart icon--right'
+      %}
+    {% endif %}
+    <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" class="checkmark">
+      <path fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+    </svg>
+  </button>
+  {% if show_payment_button %}
+    {{ form | payment_button }}
+  {% endif %}
+</div>
+
+  {% endform %}
+</div>

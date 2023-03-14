@@ -1,0 +1,608 @@
+{
+  "sections": {
+    "c19d1e39-621f-4424-87e1-611fd43128f8": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "shopify:\/\/collections\/bbl-palazzo-pants-drop",
+        "image": "shopify:\/\/shop_images\/websitebanner_041e1026-51b0-4f3f-97a3-77fdffe0a2e7.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobilebanner_1.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 8,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "39f2c405-b880-4792-a5a6-2f00c1307ed8": {
+      "type": "index__featured-promotions",
+      "blocks": {
+        "e27c0474-a0ed-488e-b982-3bc904e7c9ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shapewear_subbanner.jpg",
+            "link": "shopify:\/\/collections\/shape-wear",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "646bba60-9b49-451d-a473-57b4ec70e9ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jeans_subbanner.jpg",
+            "link": "shopify:\/\/collections\/jeans",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "549340ad-eede-4017-8388-fbc98f13579f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/plus_subbanner.jpg",
+            "link": "shopify:\/\/collections\/swank",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 70,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "d652e21e-73ef-4664-9903-9e55575fe074": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/matchingsets_subbanner.jpg",
+            "link": "shopify:\/\/collections\/sets",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "e27c0474-a0ed-488e-b982-3bc904e7c9ca",
+        "646bba60-9b49-451d-a473-57b4ec70e9ca",
+        "549340ad-eede-4017-8388-fbc98f13579f",
+        "d652e21e-73ef-4664-9903-9e55575fe074"
+      ],
+      "settings": {
+        "border_radius": 0,
+        "crop_images": false,
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#ffffff",
+        "show_border": false,
+        "width": "wide",
+        "mobile_width": "1\/2",
+        "show_gutter": true,
+        "padding_top": 12,
+        "padding_bottom": 14,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "a325613b-b074-4d0f-a34c-0868680af844": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "shopify:\/\/collections\/whats-swank",
+        "image": "shopify:\/\/shop_images\/mainbanner_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_MainBanner.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 11,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "frontpage-nosto-3": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-3"
+      }
+    },
+    "526385ba-4fc9-4ab4-a4f6-23b335656b45": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "shopify:\/\/collections\/25-essentials",
+        "image": "shopify:\/\/shop_images\/MiniFeatured_Desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Untitlekd-1.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 6,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "a2e10db3-4c0c-49e1-85a6-263c2ded3fe9": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "shopify:\/\/collections\/shape-wear",
+        "image": "shopify:\/\/shop_images\/mainbanner_04f5d263-cb2f-4dfc-ae80-8dabc6d40d54.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mainbanner_04f5d263-cb2f-4dfc-ae80-8dabc6d40d54.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1658198884811171f4": {
+      "type": "index__featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "TRENDING NOW 🔥",
+        "collection": "editor-picks",
+        "products_per": 6,
+        "mobile_products_per_row": "3",
+        "products_limit": 10,
+        "align_height": false,
+        "collection_height": 200,
+        "collection_style": "slider",
+        "width": "wide",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1657897316f7ed952f": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "shopify:\/\/products\/ring-my-bells-light-wash-bell-bottom-jeans",
+        "image": "shopify:\/\/shop_images\/ringmybells_subbanner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ringmybells_mobile_7776e727-c54e-4259-a6e4-33cf49af3c51.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 7,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1657897326343d62c1": {
+      "type": "index__featured-promotions",
+      "disabled": true,
+      "blocks": {
+        "1657897326d145c39d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60_offsite.psdcbanner1.jpg",
+            "link": "shopify:\/\/collections\/plus-sale",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1657897326d145c39d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60_offsite.psdcbanner2.jpg",
+            "link": "shopify:\/\/collections\/sale-tops",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 70,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1657897326d145c39d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60_offsite.psdcbanner3.jpg",
+            "link": "shopify:\/\/collections\/sale-bottoms",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "49495faa-0995-434a-b6ff-15ba2bf9f475": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60_offsite.psdcbanner4.jpg",
+            "link": "shopify:\/\/collections\/sale-sets",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657897326d145c39d-0",
+        "1657897326d145c39d-1",
+        "1657897326d145c39d-2",
+        "49495faa-0995-434a-b6ff-15ba2bf9f475"
+      ],
+      "settings": {
+        "border_radius": 0,
+        "crop_images": false,
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#ffffff",
+        "show_border": false,
+        "width": "wide",
+        "mobile_width": "1\/2",
+        "show_gutter": true,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "7c1dff29-823f-4d67-9385-609425635294": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "shopify:\/\/collections\/sale-accessories",
+        "image": "shopify:\/\/shop_images\/60_offsite.psdcfeaturedbanner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/60_offsite.psdcfeaturedbanner.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 5,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16581979139b40efe0": {
+      "type": "index__featured-promotions",
+      "disabled": true,
+      "blocks": {
+        "1658197913acc2b0ff-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_2_dfeede25-d716-443f-88ff-f34366a844a4.gif",
+            "link": "shopify:\/\/collections\/all-black-everythang",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        },
+        "94dca462-3062-4279-8bf7-0beef9b0380e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featuredbanner_c6e3e4ef-ee95-4147-858e-9033cdd4b1af.jpg",
+            "link": "shopify:\/\/collections\/fall-collection",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658197913acc2b0ff-1",
+        "94dca462-3062-4279-8bf7-0beef9b0380e"
+      ],
+      "settings": {
+        "border_radius": 0,
+        "crop_images": false,
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#ffffff",
+        "show_border": false,
+        "width": "wide",
+        "mobile_width": "full",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "frontpage-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-1"
+      }
+    },
+    "frontpage-nosto-2": {
+      "type": "nosto-placement",
+      "disabled": true,
+      "settings": {
+        "placement": "frontpage-nosto-2"
+      }
+    },
+    "frontpage-nosto-4": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-4"
+      }
+    },
+    "hp-nosto-5": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "hp-nosto-5"
+      }
+    },
+    "nosto-hp-1": {
+      "type": "nosto-placement",
+      "disabled": true,
+      "settings": {
+        "placement": "nosto-hp-1"
+      }
+    },
+    "30b9b37e-9f12-4da8-bfb8-3d9b9224474f": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "shopify:\/\/collections\/25-essentials",
+        "image": "shopify:\/\/shop_images\/25under_featbanner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/25under_mobile.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "81850c40-dc54-43f7-aa13-58a983f78bf7": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "template--14510664482878__81850c40-dc54-43f7-aa13-58a983f78bf7-167338154324929d1c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sezzle1.png",
+            "image_crop": "none",
+            "image_link": "shopify:\/\/pages\/klarna"
+          }
+        }
+      },
+      "block_order": [
+        "template--14510664482878__81850c40-dc54-43f7-aa13-58a983f78bf7-167338154324929d1c-1"
+      ],
+      "settings": {
+        "width": "wide",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "c19d1e39-621f-4424-87e1-611fd43128f8",
+    "39f2c405-b880-4792-a5a6-2f00c1307ed8",
+    "a325613b-b074-4d0f-a34c-0868680af844",
+    "frontpage-nosto-3",
+    "526385ba-4fc9-4ab4-a4f6-23b335656b45",
+    "a2e10db3-4c0c-49e1-85a6-263c2ded3fe9",
+    "1658198884811171f4",
+    "1657897316f7ed952f",
+    "1657897326343d62c1",
+    "7c1dff29-823f-4d67-9385-609425635294",
+    "16581979139b40efe0",
+    "frontpage-nosto-1",
+    "frontpage-nosto-2",
+    "frontpage-nosto-4",
+    "hp-nosto-5",
+    "nosto-hp-1",
+    "30b9b37e-9f12-4da8-bfb8-3d9b9224474f",
+    "81850c40-dc54-43f7-aa13-58a983f78bf7"
+  ]
+}

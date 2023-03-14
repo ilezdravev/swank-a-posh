@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "pf-307f000f": {
+      "type": "pf-307f000f",
+      "settings": {}
+    }
+  },
+  "order": [
+    "pf-307f000f"
+  ],
+  "layout": "theme.pagefly"
+}

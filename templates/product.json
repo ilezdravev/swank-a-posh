@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "product__breadcrumb",
+      "settings": {
+        "width": "wide",
+        "padding_top": 6,
+        "padding_bottom": 6,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "sidebar": {
+      "type": "product__sidebar",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "product__main",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "40cb85a9-642e-4e93-ab0b-a9f6e0616620": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "7a4e581e-5d92-4ad3-8ba6-78ce7a2bd8c6": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": false
+          }
+        },
+        "9b51becc-1e2b-4c34-9e0c-cf71a9b0c75d": {
+          "type": "accordion",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "40cb85a9-642e-4e93-ab0b-a9f6e0616620",
+        "price",
+        "7a4e581e-5d92-4ad3-8ba6-78ce7a2bd8c6",
+        "9b51becc-1e2b-4c34-9e0c-cf71a9b0c75d",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "product_images_position": "left",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "gallery_arrows": false,
+        "enable_zoom": true,
+        "enable_product_lightbox": true,
+        "slideshow_speed": 0,
+        "slideshow_transition": "slide",
+        "display_thumbnails": true,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": true,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "nosto-pdp-above-reviews": {
+      "type": "nosto-placement",
+      "disabled": true,
+      "settings": {
+        "placement": "nosto-pdp-above-reviews"
+      }
+    },
+    "1665590483e0d4f07b": {
+      "type": "apps",
+      "blocks": {
+        "3aadeeb0-e3c8-4126-8592-ff89fce30e9e": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "3aadeeb0-e3c8-4126-8592-ff89fce30e9e"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "recommendations": {
+      "type": "product__recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": false,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "Complete The Look",
+        "products_per": 3,
+        "recommended_products_limit": 6,
+        "align_height": false,
+        "collection_height": 200,
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "productpage-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "productpage-nosto-1"
+      }
+    },
+    "productpage-nosto-2": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "productpage-nosto-2"
+      }
+    },
+    "productpage-nosto-3": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "productpage-nosto-3"
+      }
+    },
+    "nosto-below-productsection": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "nosto-below-productsection"
+      }
+    },
+    "nosto-pdp-badges": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "nosto-pdp-badges"
+      }
+    },
+    "nosto-pdp-dynamic-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "nosto-pdp-dynamic-1"
+      }
+    },
+    "nosto-pdp-top": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "nosto-pdp-top"
+      }
+    },
+    "productpage-nosto-4": {
+      "type": "nosto-placement",
+      "disabled": true,
+      "settings": {
+        "placement": "productpage-nosto-4"
+      }
+    },
+    "productpage-nosto-6": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "productpage-nosto-6"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "sidebar",
+    "main",
+    "nosto-pdp-above-reviews",
+    "1665590483e0d4f07b",
+    "recommendations",
+    "productpage-nosto-1",
+    "productpage-nosto-2",
+    "productpage-nosto-3",
+    "nosto-below-productsection",
+    "nosto-pdp-badges",
+    "nosto-pdp-dynamic-1",
+    "nosto-pdp-top",
+    "productpage-nosto-4",
+    "productpage-nosto-6"
+  ]
+}

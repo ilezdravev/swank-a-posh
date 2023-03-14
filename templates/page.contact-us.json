@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "166066690805687106": {
+      "type": "index__faq",
+      "disabled": true,
+      "blocks": {
+        "16606669089cbd573e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Section heading"
+          }
+        },
+        "16606669089cbd573e-1": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669089cbd573e-2": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669089cbd573e-3": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669089cbd573e-4": {
+          "type": "heading",
+          "settings": {
+            "title": "Section heading"
+          }
+        },
+        "16606669089cbd573e-5": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669089cbd573e-6": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669089cbd573e-7": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669089cbd573e-8": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "16606669089cbd573e-0",
+        "16606669089cbd573e-1",
+        "16606669089cbd573e-2",
+        "16606669089cbd573e-3",
+        "16606669089cbd573e-4",
+        "16606669089cbd573e-5",
+        "16606669089cbd573e-6",
+        "16606669089cbd573e-7",
+        "16606669089cbd573e-8"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "width": "standard",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "166066780732153946": {
+      "type": "index__contact-form",
+      "blocks": {
+        "83e68016-92b8-4d47-9352-3ddb52810e6b": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Name<\/strong><\/p>"
+          }
+        },
+        "5ad3e59f-8224-4b98-bf09-bb74f658fcd1": {
+          "type": "textfield",
+          "settings": {
+            "label": "Name",
+            "required": true
+          }
+        },
+        "3c3d9d68-ca73-4222-a59c-80dfb98ce75c": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Email<\/strong><\/p>"
+          }
+        },
+        "43151c72-0818-41de-8a3e-8f2724253925": {
+          "type": "email",
+          "settings": {
+            "label": "Title"
+          }
+        },
+        "f1bb19c8-bcdc-45ec-90d6-e05763907fbb": {
+          "type": "textarea",
+          "settings": {
+            "label": "Message",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "83e68016-92b8-4d47-9352-3ddb52810e6b",
+        "5ad3e59f-8224-4b98-bf09-bb74f658fcd1",
+        "3c3d9d68-ca73-4222-a59c-80dfb98ce75c",
+        "43151c72-0818-41de-8a3e-8f2724253925",
+        "f1bb19c8-bcdc-45ec-90d6-e05763907fbb"
+      ],
+      "settings": {
+        "title": "We'd Love To Hear From You",
+        "content_text": "<p>Please use the form to send us your questions, concerns, and ideas!<\/p><p>📞 (586) 460-7848<\/p><p>Please allow 24-72 business hours for a response via email.<\/p>",
+        "social_enable": true,
+        "text_alignment": "center",
+        "background": "#e5e5e5",
+        "text_color": "#000000",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166066690805687106",
+    "166066780732153946"
+  ]
+}

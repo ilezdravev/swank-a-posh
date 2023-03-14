@@ -1,0 +1,89 @@
+{%- assign limit = 4 -%}
+{%- assign alt_products_total = 0 -%}
+{%- capture extra_colors -%}
+  {%- for tag in product.tags -%}
+    {%- if tag contains "group_" -%}
+        {%- assign alt_product_handle = tag | split:'group_' | last | escape -%}
+        {%- assign alt_product = all_products[alt_product_handle] -%}
+        {% if alt_product.id != product.id %}
+            {%- assign alt_product_color = alt_product.title | split:'-' | last -%}
+            {%- assign alt_products_total = alt_products_total | plus: 1 -%}
+            {% if template contains 'product' %}
+              <a
+                href="{{alt_product.url}}"
+                class="color-swatch-container fs-color-swatch-container"
+              >
+                <span
+                  style="background-color:{{alt_product_color | downcase | handleize | replace:"-",'_'}}; background-size: cover;background-image:url('{{alt_product.featured_image | img_url:'100x'}}')!important;"
+                  class="{%if alt_product.id == product.id %} selected {%endif%} color-swatch fs-result-page-1ohmb6l 
+                  fast-swatch-color-{{alt_product_color| downcase | split:' ' | last}} 
+                  product-color-swatch-{{alt_product_color | downcase | handleize | replace:"-",'_'}} 
+                  fast-swatch-color-fallback"
+                ></span>
+                <span class="color-swatch-color-name fs-color-name fs-result-page-1ohmb6l">
+                  {{- alt_product_color -}}
+                </span>
+                <script id="{{alt_product.handle}}" type="application/json">
+                  {{alt_product | json}}
+                </script>
+              </a>
+            {% else %}
+              <span class="color-swatch-container fs-color-swatch-container">
+                <span
+                  class="{%if alt_product.id == product.id %}selected {% endif %} color-swatch fs-result-page-1ohmb6l 
+                  product-color-swatch-{{alt_product_color | downcase | handleize | replace:"-",'_'}} 
+                  fast-swatch-color-fallback"
+                  style="background-color:{{alt_product_color | downcase | handleize | replace:"-",'_'}}"
+                ></span>
+                <span class="color-swatch-color-name fs-color-name fs-result-page-1ohmb6l">
+                  {{- alt_product_color -}}
+                </span>
+                <script id="{{alt_product.handle}}" type="application/json">
+                  {{alt_product | json}}
+                </script>
+              </span>
+            {% endif %}
+          {% endif %}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+<div class="color-swatches fs-result-page-1xgbzd0">
+  <span class="color-swatch-container fs-color-swatch-container">
+    {%- assign product_color = product.title | split:'-' | last -%}
+    <span
+      {% if template contains 'product' %}
+        style="background-color:{{product_color | downcase | handleize | replace:"-",'_'}}; background-image:url('{{product.featured_image | img_url:'100x'}}');background-size: cover;"
+      {% endif %}
+      style="background-color:{{product_color | downcase | handleize | replace:"-",'_'}}"
+      class="selected color-swatch fs-result-page-1ohmb6l 
+      fast-swatch-color-{{product_color| downcase | split:' ' | last}} 
+      product-color-swatch-{{product_color | downcase | handleize | replace:"-",'_'}} fast-swatch-color-fallback"
+    ></span>
+    <span class="color-swatch-color-name fs-color-name fs-result-page-1ohmb6l">
+      {{- product_color -}}
+    </span>
+    <script id="{{product.handle}}" type="application/json">
+      {{product | json}}
+    </script>
+  </span>
+
+  {% if alt_products_total >= 1 %}
+    {{ extra_colors }}
+  {%- else -%}
+    <div style="display:none ;">
+      {{ extra_colors }}
+    </div>
+  {% endif %}
+  {% if limit != blank and alt_products_total > limit %}
+    <div class="quick-shop__buttons animated fadeInUp">
+      <span
+        class="quick_shop button action_button js-quick-shop-link"
+        data-id="{{ product.id }}"
+        data-url="{{ product.url }}"
+      >
+        +{{ alt_products_total | minus: limit }}
+      </span>
+    </div>
+  {% endif %}
+</div>

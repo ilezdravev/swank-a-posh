@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "login-form",
+      "settings": {
+        "richtext": "",
+        "image_position": "right",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1663637085e51623fc": {
+      "type": "apps",
+      "blocks": {
+        "648cb544-a487-417b-a529-f555b4cd3b72": {
+          "type": "shopify:\/\/apps\/filters-discovery-search\/blocks\/upsell_crosell_home\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
+          "settings": {
+            "index": 1,
+            "title": "Recommended Products",
+            "layout": "horizontal",
+            "source": "related_purchase,related_cart,related_views,similar_products",
+            "img_size": 250,
+            "collections": "id1, id2, id3",
+            "max_suggest": 5
+          }
+        }
+      },
+      "block_order": [
+        "648cb544-a487-417b-a529-f555b4cd3b72"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1663637085e51623fc"
+  ]
+}

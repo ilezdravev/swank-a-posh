@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1660666942c0d6b0d2": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "",
+        "pretext": "<p>Preheading<\/p>",
+        "title": "Image with Text Overlay",
+        "subtitle": "<p>Additional info in the subheading<\/p>",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "Button 1",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "Button 2",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606669961950a2c0": {
+      "type": "index__faq",
+      "blocks": {
+        "16606669959c9eb6d8-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Section heading"
+          }
+        },
+        "16606669959c9eb6d8-1": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669959c9eb6d8-2": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669959c9eb6d8-3": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669959c9eb6d8-4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Section heading"
+          }
+        },
+        "16606669959c9eb6d8-5": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669959c9eb6d8-6": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "16606669959c9eb6d8-7": {
+          "type": "content",
+          "settings": {
+            "title": "What is your question?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16606669959c9eb6d8-0",
+        "16606669959c9eb6d8-1",
+        "16606669959c9eb6d8-2",
+        "16606669959c9eb6d8-3",
+        "16606669959c9eb6d8-4",
+        "16606669959c9eb6d8-5",
+        "16606669959c9eb6d8-6",
+        "16606669959c9eb6d8-7"
+      ],
+      "settings": {
+        "title": "Current Job Openings",
+        "width": "standard",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660666942c0d6b0d2",
+    "16606669961950a2c0"
+  ]
+}

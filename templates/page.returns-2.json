@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "46c047ed-dffe-4fbb-b573-16476938ac37": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "template--14458338443326__46c047ed-dffe-4fbb-b573-16476938ac37-1665334696ed0da6f9-2": {
+          "type": "text",
+          "settings": {
+            "title": "Return Policy",
+            "heading_size": "regular",
+            "text": "<p>You can return or exchange your item within 21 days of the ship date. Only items that are unworn, unwashed, and undamaged will be accepted. Product tags must be attached and items must be free from any signs of wear such as: stains, deodorant marks, perfume scents, make-up, and animal hair. Almost everything is eligible for return except sale items, bodysuits, shapewear, and jewelry. We reserve the right to adjust returns if original items are not received in new condition.<\/p><p><\/p><p>Return and exchange shipping costs are the customer’s responsibility and we require proof of tracking for all returned packages. We strongly recommend keeping proof of postage and your tracking number for the returned items until your return or exchange is processed.   Please allow up to 5 business days for a return or exchange to be processed once it arrives at our facility. You will receive an email from us when the return or exchange is processed. <\/p>",
+            "button_label": "Start Return",
+            "link": "https:\/\/swank-a-posh.loopreturns.com\/#\/",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14458338443326__46c047ed-dffe-4fbb-b573-16476938ac37-1665334696ed0da6f9-2"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 7,
+        "padding_bottom": 7,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "ba5a48ed-d50c-4720-a2e0-0cc04a104884": {
+      "type": "index__faq",
+      "blocks": {
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-0": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-1": {
+          "type": "content",
+          "settings": {
+            "title": "Can I exchange my items?",
+            "answer": "<p>Love the item but need a different fit? Say less - you can exchange for a different size!<\/p>"
+          }
+        },
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-2": {
+          "type": "content",
+          "settings": {
+            "title": "What Items Are Final Sale?",
+            "answer": "<p>Sale items, Bodysuits, Shapewear, and Jewelry are final sale and do not qualify for returns.<\/p>"
+          }
+        },
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-3": {
+          "type": "content",
+          "settings": {
+            "title": "What Is The Return To Sender Policy?",
+            "answer": "<p>Upon receiving an order back to our online office, customers will be notified within 3 business days. A notification will be sent via email, regarding receiving the package back. The package will be held at a maximum of 48-72 business hours, and it could be reshipped with fulfillment of an addition shipping fee.In the moment that we do not receive a response, a gift card will be issued for use online only at ShopSwankAPosh.com only and will have an applied 20% restocking fee.**Please note that restocking fees and\/or reshipping fees can not be waived under any circumstances. If a gift card is issued it cannot be transferred for in store use.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-0",
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-1",
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-2",
+        "template--14458338443326__ba5a48ed-d50c-4720-a2e0-0cc04a104884-16653347160a5fe78d-3"
+      ],
+      "settings": {
+        "title": "",
+        "width": "standard",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "46c047ed-dffe-4fbb-b573-16476938ac37",
+    "ba5a48ed-d50c-4720-a2e0-0cc04a104884"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "categorypage-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "categorypage-nosto-1"
+      }
+    },
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image_darken": true,
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection__main",
+      "disabled": true,
+      "settings": {
+        "collection_breadcrumb": true,
+        "collection_tags": true,
+        "collection_sort": true,
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165097831645f79793": {
+      "type": "apps",
+      "blocks": {
+        "1dc0eaf4-418a-48b1-a20c-6a130a777ddb": {
+          "type": "shopify:\/\/apps\/filters-discovery-search\/blocks\/smart_collections\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1dc0eaf4-418a-48b1-a20c-6a130a777ddb"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ".options-wrapper .options span.option{\n  font-size: 11px !important;\n  line-height: 16px !important;\n  padding: 2px 7px !important;\n}"
+      }
+    },
+    "categorypage-nosto-2": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "categorypage-nosto-2"
+      }
+    },
+    "Jane-Test-Placement-Below-Last-Row-of-Sale": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "Jane-Test-Placement-Below-Last-Row-of-Sale"
+      }
+    },
+    "nosto-2-test": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "nosto-2-test"
+      }
+    },
+    "sale-PLP-Above-Sort": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "sale-PLP-Above-Sort"
+      }
+    }
+  },
+  "order": [
+    "categorypage-nosto-1",
+    "banner",
+    "main",
+    "165097831645f79793",
+    "categorypage-nosto-2",
+    "Jane-Test-Placement-Below-Last-Row-of-Sale",
+    "nosto-2-test",
+    "sale-PLP-Above-Sort"
+  ]
+}

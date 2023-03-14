@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "166066690805687106": {
+      "type": "index__faq",
+      "blocks": {
+        "16606669089cbd573e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Orders & Payments"
+          }
+        },
+        "16606669089cbd573e-1": {
+          "type": "content",
+          "settings": {
+            "title": "How Long Does An Order Take To Process?",
+            "answer": "<p>Typically, orders ship out within 1-3 business days from the order date. However, some orders may take up to 4 business days to process. Please note, Saturday, Sunday or holidays are not included in business days. Due to Covid-19, we are experiencing a slight delay in order processing. Orders may be subject to a delay and require an additional 2 business days to process.<br\/><br\/>We work hard to ensure all orders are delivered within a timely manner. Please keep in mind, the delivery dates are only estimated provided by USPS (for international orders, PO box addresses, and high quantity orders) and\/or FEDEX. On rare occurrences, packages may arrive outside of the estimated time frame shown.<\/p>"
+          }
+        },
+        "16606669089cbd573e-2": {
+          "type": "content",
+          "settings": {
+            "title": "How Do I Change Or Cancel My Order?",
+            "answer": "<p>You have 24 hours from the time of purchase to request an edit or cancellation of an order. Editing is approved based on inventory availability, and is not guaranteed. In some cases, orders are shipped within 24 hours from time of purchase and cannot be cancelled once a tracking number is issued. If you need to put in a request please do so immediately by calling Customer Service as orders can be shipped the same day of purchase. <\/p>"
+          }
+        },
+        "16606669089cbd573e-3": {
+          "type": "content",
+          "settings": {
+            "title": "I Have Two Coupon Codes, Can I Combine Them?",
+            "answer": "<p>Coupon codes and\/or promotions cannot be combined or applied to the same order.<\/p>"
+          }
+        },
+        "e8a7213b-4498-4164-9968-f92b4156e430": {
+          "type": "content",
+          "settings": {
+            "title": "What Happens If I Forget To Apply My Coupon Code?",
+            "answer": "<p>Unfortunately, we are unable to manually apply a discount to an order once it’s placed. However, the code can be applied to a future order if it is still valid.<\/p>"
+          }
+        },
+        "1c75e4fc-24c8-49c5-a439-046540b7045b": {
+          "type": "content",
+          "settings": {
+            "title": "Why Isn't My Coupon Code Working?",
+            "answer": "<p><strong>Accuracy: <\/strong>Have you entered the code correctly? Our codes are case sensitive, try copying and pasting the code into the Promo Code box just before checkout.<\/p><p><br\/><strong>Expired Date: <\/strong>Please look at the terms and conditions of the discount code to make sure this offer is still valid.<\/p><p><br\/><strong>Eligible Items: <\/strong>From time to time we offer discount codes for selected items only and this will be stated in the terms and conditions of the discount code.<\/p><p><br\/><strong>Unique Codes:<\/strong> If you are lucky enough to receive a unique code from us, please note that it cannot be used in conjunction with any other discount code and the code can only be used once.<\/p>"
+          }
+        },
+        "c0c56de7-8287-4cd7-a27b-1d70341f3943": {
+          "type": "content",
+          "settings": {
+            "title": "Why Has My Order Been Canceled?",
+            "answer": "<p>It is rare that your order will be cancelled. However if you do receive notification of your order being cancelled, it may be one of the reasons below:<br\/><br\/>• The item(s) ordered are unavailable to ship and does not have an anticipated restock date.<br\/><br\/>• The billing and shipping addresses on your order does not match and you’ve either failed to provide verification or your documents for verification have not been approved.<br\/><br\/><em> If your order has been cancelled and refunded, please allow 3-5 business days for the funds to appear on your banking statement. <\/em><\/p>"
+          }
+        },
+        "16606669089cbd573e-7": {
+          "type": "content",
+          "settings": {
+            "title": "What If My Card Is Declining?",
+            "answer": "<p>Check the billing information you’re entering and be sure it matches what you have on file with your bank. If the funds have come out of your account and your order has not been completed, please contact your bank and they’ll reverse the transaction as it has not been completed on our end. If you keep running into an issue, checkout with PayPal for faster checkout.<\/p>"
+          }
+        },
+        "0e123908-13e6-4b95-b23b-86e846dc8224": {
+          "type": "content",
+          "settings": {
+            "title": "How Do I Redeem My Gift Card?",
+            "answer": "<p>1) Once you receive your gift card via email from Swank A Posh. Click \"View Gift Card\"<\/p><p><\/p><p>2) You Will Be Redirected To View The Gift Card, Copy The Gift Card Code.<\/p><p><\/p><p>3) Shop & Add Your Items To Your Cart As Usual.<\/p><p><\/p><p>4) Go To Checkout & Paste Your Gift Card Code. For desktop, this is located under the order summary. For mobile, you will need to expand the order summary. <\/p><p><\/p><p>5) Enter Your Shipping Information & Complete Checkout. <\/p>"
+          }
+        },
+        "16606669089cbd573e-4": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "16606669089cbd573e-5": {
+          "type": "content",
+          "settings": {
+            "title": "How Do I Track My Package?",
+            "answer": "<p>Your tracking confirmation is sent via email as soon as your order ships. If you haven’t received an email, please be sure to check your spam folder. Additionally, all orders are shipped via FEDEX. With the exception of, International orders, PO box addresses, and high quantity orders are shipped via USPS.<\/p>"
+          }
+        },
+        "16606669089cbd573e-6": {
+          "type": "content",
+          "settings": {
+            "title": "I Placed An Order, But There Hasn't Been Any Movement In The Tracking?",
+            "answer": "<p>Most orders leave our shipping warehouses within 48 business hours after the order is fulfilled (excluding Saturdays, Sundays, and holidays). In super rare instances, we may run out of popular items while processing your order. To avoid canceling your order, it will be held until the item is available and your order is fulfilled. If this is the case, you will send you an email notifying you of the delay.<\/p>"
+          }
+        },
+        "399ecb6c-85ca-4e61-8e0a-169b403ab61f": {
+          "type": "content",
+          "settings": {
+            "title": "How Are Returns Processed?",
+            "answer": "<p>1) Log onto our return portal <a href=\"https:\/\/swank-a-posh.loopreturns.com\/#\/\" target=\"_blank\">here.<\/a> <\/p><p>2) Enter the items you desire to return for approval with reason and solution (e-gift card or exchange upon approval) of return - this could take 1-3 business days.-<br\/><br\/>3) Once approved, mail back your approved return at your local United States Postal Office. (Make sure you keep your proof of postage! You can then track them as they make their way back to us.)<br\/><br\/>4) When your return arrives back at Swank A Posh, a return associate will ensure all item(s) have been received and send an email confirming it has been received - this could take us up to 1-4 days once it arrives back in our warehouse.<br\/><br\/>You’ll receive your e-gift card or approval of exchange within an additional 1-3 business days.<\/p>"
+          }
+        },
+        "a091d844-cbc5-49e9-a9f3-903087183414": {
+          "type": "heading",
+          "settings": {
+            "title": "Sizing"
+          }
+        },
+        "918e2f19-729d-4e16-9225-c77cac591de2": {
+          "type": "content",
+          "settings": {
+            "title": "Do You Have A Size Guide?",
+            "answer": "<p>Yes, however every item we carry has a bit of a different fit. You can find most accurate sizing when choosing your size for each product.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16606669089cbd573e-0",
+        "16606669089cbd573e-1",
+        "16606669089cbd573e-2",
+        "16606669089cbd573e-3",
+        "e8a7213b-4498-4164-9968-f92b4156e430",
+        "1c75e4fc-24c8-49c5-a439-046540b7045b",
+        "c0c56de7-8287-4cd7-a27b-1d70341f3943",
+        "16606669089cbd573e-7",
+        "0e123908-13e6-4b95-b23b-86e846dc8224",
+        "16606669089cbd573e-4",
+        "16606669089cbd573e-5",
+        "16606669089cbd573e-6",
+        "399ecb6c-85ca-4e61-8e0a-169b403ab61f",
+        "a091d844-cbc5-49e9-a9f3-903087183414",
+        "918e2f19-729d-4e16-9225-c77cac591de2"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "width": "standard",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166066690805687106"
+  ]
+}

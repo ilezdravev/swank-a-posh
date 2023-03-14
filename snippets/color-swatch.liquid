@@ -1,0 +1,18 @@
+<style>
+    {%- assign color_swatches = settings.color_swatches | newline_to_br | strip_newlines | split: '<br />' -%}
+    {% for color in color_swatches %}
+    {%- assign color_name = color | split:':'| first  -%}
+    {%- assign color_name = color_name | downcase | handleize | replace:"-",'_' -%}
+    {%- assign color_settings = color | split:':'| last -%}
+    .product-color-swatch-{{color_name}}{
+        {% if color_settings contains '.jpg' 
+        or color_settings contains '.png'
+        or color_settings contains '.jpeg' %}
+            background-image: url('{{ color_settings | file_img_url: '100x' }}');
+            background-size:cover;
+        {% else %}
+            background-color:{{color_settings}} !important;
+        {% endif %}
+    }
+    {% endfor %}
+</style>

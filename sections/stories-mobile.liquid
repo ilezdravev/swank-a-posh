@@ -1,0 +1,227 @@
+<section id="brands-{{section.id}}"  class="brands " style="background-color: {{section.settings.brand_color}};">
+
+  <div class="page-width bg-light" style="--stories-font-size: 10px;">
+    <div class="row">      
+      <div class="stories bg-light">
+        <div class="stories-inner pt-0 pb-0 mt-2 mb-2">
+          {%- for block in section.blocks -%}
+          <a class="story {% if forloop.first %}active{% endif %}" href="{{block.settings.storieslink}}" target="_self">
+            <div class="story-img lazybg">
+            <img loading="lazy" src="{{block.settings.image | img_url: '80x'}}" width="30" height="30" alt="Story">
+            </div>
+            <p class="story-title text-center text-uppercase mt-1 mb-0 font-weight-bolder">{{block.settings.title}}</p>                      
+          </a>  
+          {%- endfor -%}
+        </div>
+      </div> 
+       
+    </div>
+  </div>
+</section>
+<style>
+#brands-{{section.id}}{
+  display: none;
+}
+.stories {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#brands-{{section.id}} .row{
+  margin-bottom: 10px;
+}
+.badge-light, .bg-light {
+    background-color: var(--color-light)!important;
+}
+.stories-inner {
+    margin-top: 6px;
+    display: flex;
+}
+    .stories-inner .story {
+    width: 50px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+}
+    .stories-inner .story .story-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.stories-inner .story .story-img img{
+width:100%;
+height:100%;}
+    .product__quantity {
+    position: relative;
+    max-width: 80px;
+    min-width: 60px;
+    overflow: visible;
+    background-color: #fff;
+    background-color: var(--colorInputBg);
+    color: #000;
+    color: var(--colorInputText);
+}
+  .product__quantity input.qtyminus, .product__quantity input.qtyplus {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    border: 0 none;
+    background: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 10px;
+    line-height: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: background-color .1s ease-out;
+    z-index: 2;
+    fill: #000;
+    fill: var(--colorInputText);
+    height: auto;
+}
+input.qtyminus {
+    left: 0;
+}
+    .product__quantity input[type="text"] {
+    display: block;
+    background: none;
+    text-align: center;
+    width: 100%;
+    padding: 5px 20px;
+    margin: 0;
+    z-index: 1;
+}
+    input.qtyplus {
+    right: 0;
+}
+#site-headermob {
+transition: ease .3s;
+}
+.sticky-pin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+@media only screen and (max-width:768px){
+  #brands-{{section.id}} {
+    display: block;
+}
+  .header-item.header-item--icons-left.header-item--icons {
+    justify-content: flex-start;
+}
+    .header-item--logo, .header-layout--left-center .header-item--logo {
+    flex: 0 1 200px!important;
+}
+  header.site-header .page-width {
+    padding: 0 15px;
+}
+  button.site-nav__link.site-nav__link--icon.js-toggle-slide-nav span {
+    margin-left: 10px;
+}
+
+button.site-nav__link.site-nav__link--icon.js-toggle-slide-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 15px;padding: 0;
+}
+  .brands .page-width {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  div#shopify-block-loox-rating {
+    text-align: center;
+}
+  
+}
+/*     
+@keyframes stories-outline {   
+0% {
+    stroke: #e294ab;
+    stroke-dasharray: 1;
+}
+100% {
+    stroke: #cd486b;
+    transform: rotate(180deg);
+    stroke-dasharray: 8;
+}    
+}
+     */
+/* .stories-inner .story.active svg {
+    stroke: #e294ab;
+    stroke-width: 2px;
+    -webkit-animation: stories-outline 6s ease-out 2 alternate;
+    animation: stories-outline 6s ease-out 2 alternate;
+    stroke-dasharray: 0;
+}     */
+    
+/*     .stories-inner .story svg {
+    fill: none;
+    stroke-width: 2px;
+    position: absolute;
+    width: 120%;
+    left: -6px;
+top: -6px;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+}    */
+.story-title{
+  font-size: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+} 
+</style>
+{% schema %}
+{
+  "name": "Brand Stories",
+  "settings": [
+	{
+          "type": "color",
+          "id": "brand_color",
+          "label": "Enter the color here"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "storieslink",
+          "label": "Link"
+        }
+
+      ]
+	}
+  ],
+  "presets": [
+    {
+      "name": "Brand Stories"
+    }
+  ]
+}
+{% endschema %}
